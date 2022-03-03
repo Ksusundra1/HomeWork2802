@@ -42,7 +42,7 @@ for i in range(len(sp)):
         new_sp.append(sp[i])
     elif sp[i].isdigit() is True and len(sp[i]) == 1:
 
-        new_sp.append('"' + '0' + sp[i] + '"')  # xnj 'nj&? это О в аскии
+        new_sp.append('"' + '0' + sp[i] + '"')
     elif sp[i].isdigit() is True and len(sp[i]) > 1:
         new_sp.append('"' + sp[i] + '"')
     elif sp[i][0] == "+":
